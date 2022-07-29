@@ -42,7 +42,6 @@ jobs:
           # TODO: install, build, deploy frontend
           command: |
             npm run frontend:deploy
-      # initialization of eb and passing env
       - run:
           name: give envVAR
           command: |
