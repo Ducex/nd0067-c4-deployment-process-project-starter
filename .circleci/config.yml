@@ -39,7 +39,7 @@ jobs:
       - checkout
       - run:
           name: build und Deploy frontend
-          # TODO: install, build, deploy frontend
+          # TODO: install, build, deploy front
           command: |
             npm run frontend:deploy
       - run:
