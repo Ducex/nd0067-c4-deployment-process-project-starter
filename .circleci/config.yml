@@ -45,9 +45,9 @@ jobs:
              # TODO: sending the env variable from circleCli to AWS
       # initialization of eb and passing env
       - run:
-          name: Init of EB and passing
+          name: Give enviromental vars to AWS
           command: |
-            npm run ebInit && npm run ebPass
+             npm run enviro
       - run:
           name: build und Deploy backend
           # TODO: install, build, deploy backend
