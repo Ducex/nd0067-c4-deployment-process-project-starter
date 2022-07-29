@@ -49,9 +49,9 @@ jobs:
             npm run frontend:deploy
       # initialization of eb and passing env
       - run:
-          name: Init of EB and passing
+          name: give envVAR
           command: |
-            npm run ebInit && npm run ebPass
+           npm run enviro
       - run:
           name: build und Deploy backend
           # TODO: install, build, deploy backend
