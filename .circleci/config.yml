@@ -38,11 +38,6 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
-          name: aws conf
-          # TODO: install, build, deploy frontend
-          command: |
-            aws configure set [--profile default] && aws configure set [--AWS_ACCESS_KEY_ID AKIA5BAGRXPYP5FEXJHF] && aws configure set [--AWS_SECRET_ACCESS_KEY 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] && aws configure set [--AWS_REGION us-east-1]
-      - run:
           name: build und Deploy frontend
           # TODO: install, build, deploy frontend
           command: |
